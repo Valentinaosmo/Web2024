@@ -109,6 +109,10 @@ button:focus-visible {
   button {
     background-color: #faadad;
   }
+
+  #app{
+    width: 375px;
+  }
 }
 
 

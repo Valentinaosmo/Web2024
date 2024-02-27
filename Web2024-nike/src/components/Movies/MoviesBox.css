@@ -1,0 +1,76 @@
+/*MOBILE*/
+@media (max-width: 375px) {
+    .moviesBox-container {
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    gap:2%;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    width: 375px;
+}
+#motivation{
+    padding-top: 30px;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.moviesBox-container::-webkit-scrollbar {
+    display: none;
+}
+
+.moviesBox-container img{
+    height: 100%;
+    border-radius: 5px;
+    width: 375px;
+}
+
+
+
+h3{
+    padding: 0px 25px;
+    display: flex;
+    justify-content: left;
+}
+}
+
+
+/*PC*/
+@media (min-width: 1025px){
+    .moviesBox-container {
+        padding: 0px 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow-x: scroll;
+        gap:2%;
+        overflow-y: hidden;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .moviesBox-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .moviesBox-container img{
+        height: 400px;
+        border-radius: 5px;
+        width: 400px;
+    }
+
+
+    h3{
+        padding: 0px 25px;
+    }
+
+    #motivation{
+        display: flex;
+        justify-content: left;
+    }
+    }
+

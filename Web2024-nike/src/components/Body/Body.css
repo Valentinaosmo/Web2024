@@ -20,8 +20,7 @@ div .gratis{
     background-color:rgb(236, 236, 236);
     border-color: beige;
     width: 100%;
-    height: 70px;
-    padding-top: 20px;
+    height: 53px;
 
     
 }
@@ -61,7 +60,7 @@ h2{
 }
 
 h3{
-    margin-top: 2px;
+    margin-top: 8px;
     font-size:15px;
     font-weight:600;
     font-family:Arial, Helvetica, sans-serif;
@@ -115,7 +114,10 @@ div .buttoms{
     display: flex;
     justify-content: center;
 
+
+
 }
+
 
 @media (max-width: 375px) {
 
@@ -127,11 +129,12 @@ div .buttoms{
     }
     
     h3{
-        font-size: 15px;
+        font-size: 8px;
 
     }
     h1{
-        font-size: 3rem;
+        font-size: 8px;
+
     }
     h2{
         font-size: 1.1rem;
@@ -145,13 +148,43 @@ div .buttoms{
     }
     
     #hero{
-        display: none;
+        width: 375px;
     }
 
     #carousel{
         display: flex;
         gap: 5rem;
         justify-content: baseline;
+    }
+
+    #comprar-nov{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #coleccion{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    #suave{
+        font-size: 60px;
+    }
+
+    #tejido{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    #motivacion{
+        padding-top: 10px;
     }
   
 }

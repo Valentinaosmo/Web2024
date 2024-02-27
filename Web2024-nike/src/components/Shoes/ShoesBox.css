@@ -1,0 +1,80 @@
+/*MOBILE*/
+@media (max-width: 375px) {
+    .shoeBox-container {
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    gap:2%;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin-bottom: 150px;
+    width: 375px;
+
+}
+#motivation{
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.shoeBox-container::-webkit-scrollbar {
+    display: none;
+}
+
+.shoeBox-container img{
+    height: 400px;
+    border-radius: 5px;
+    width: 360px;
+}
+
+.serie-box{
+    height: 500px;
+}
+h3{
+    padding: 0px 25px;
+}
+}
+
+/*PC*/
+
+@media (min-width: 1025px){
+    .shoeBox-container {
+        padding: 0px 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow-x: scroll;
+        gap:2%;
+        overflow-y: hidden;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        margin-bottom: 50px;
+    }
+
+    .shoeBox-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .shoeBox-container img{
+        height: 100%;
+        border-radius: 5px;
+        width: 300px;
+    }
+
+    h3{
+        padding: 0px 25px;
+    }
+    #motivation{
+        display: flex;
+        justify-content: left;
+        margin-left: 23px;
+        font-size: 23px;
+        color: black;
+    }
+    }
+
+
